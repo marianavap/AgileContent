@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface MVViewController : NSObject
+@interface MVViewController : UIViewController
+
 
 @end

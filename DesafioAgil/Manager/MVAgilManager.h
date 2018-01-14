@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "MVAgilModel.h"
+ 
 @interface MVAgilManager : NSObject
-
+- (void)listGitModel:(MVAgilModel *)model  withCompletion:(void (^)(NSMutableArray *, NSString *))block;
 @end

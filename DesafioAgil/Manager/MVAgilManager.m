@@ -7,7 +7,20 @@
 //
 
 #import "MVAgilManager.h"
+#import "MVAgilModel.h"
+#import "MVDatabaseNetwork.h"
 
 @implementation MVAgilManager
+
+- (void)listGitModel:(MVAgilModel *)model  withCompletion:(void (^)(NSMutableArray *, NSString *))block {
+    id parameter;
+    
+    [[MVDatabaseNetwork sharedClient] requestWithAPI:@"" parameters:parameter withCompletion:^(id response, NSError *error) {
+        if (error) {
+            block (nil, NSLocalizedString(@"git.response.error", nil));
+        }
+    }];
+}
+
 
 @end

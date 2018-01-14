@@ -10,4 +10,7 @@
 
 @interface MVDatabaseNetwork : NSObject
 
++ (instancetype)sharedClient;
+- (void)requestWithAPI:(NSString *)api parameters:(id)parameters withCompletion:(void (^)(id, NSError *))block;
+
 @end

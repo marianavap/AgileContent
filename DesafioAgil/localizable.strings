@@ -1,20 +1,18 @@
-/* 
-  localizable.strings
-  easy
-
-  Created by Guilherme Martins on 23/11/17.
-  Copyright © 2017 Guilherme Martins. All rights reserved.
-*/
+//
+//  MVAgilManager.m
+//  DesafioAgil
+//
+//  Created by Mariana Vieira Apolinario de Souza on 10/01/18.
+//  Copyright © 2018 Mariana Vieira Apolinario de Souza. All rights reserved.
+//
 
 //Default
 "ok.button" = "ok";
-"default.error.title" = "oops";
-"default.domain" = "Easy";
+"default.error.title" = "Git Hub Viewer";
 
-//Location Manager
-"location.service.off.title" = "Serviço de localização desabilitado";
-"location.service.off.message" = "Você deve ativar 'sempre' nas Configurações dos Serviços de Localização";
-"location.service.notDetermined.location" = "Não foi possível encontrar sua localização";
 
-//Taxi
-"taxi.response.error" = "Sem resultados";
+//Error
+"git.response.error" = "Sem resultados";
+
+//Messagens
+"user.not.found" = "User not found";

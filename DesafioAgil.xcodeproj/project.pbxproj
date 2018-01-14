@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA61FA30765FB1B2BA8CEE1A /* libPods-DesafioAgilTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 286C6EC5DD24EEAFBE379D6B /* libPods-DesafioAgilTests.a */; };
+		F70F6D607400A8FE617DC160 /* libPods-DesafioAgil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9FA34D488A2A9B3D00A9F2 /* libPods-DesafioAgil.a */; };
+		FE8149A2200C106800720F89 /* localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE8149A1200C106800720F89 /* localizable.strings */; };
+		FE8149A7200C203000720F89 /* MVAgilManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8149A6200C203000720F89 /* MVAgilManagerTest.m */; };
+		FE8149A9200C205500720F89 /* MVDatabaseNetworkTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8149A8200C205500720F89 /* MVDatabaseNetworkTest.m */; };
+		FE8149AB200C207A00720F89 /* MVControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8149AA200C207A00720F89 /* MVControllerTest.m */; };
 		FE866A1220038B1D009D4C75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE866A1120038B1D009D4C75 /* main.m */; };
 		FE866A1520038B1D009D4C75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE866A1420038B1D009D4C75 /* AppDelegate.m */; };
-		FE866A1820038B1D009D4C75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE866A1720038B1D009D4C75 /* ViewController.m */; };
 		FE866A1B20038B1D009D4C75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE866A1920038B1D009D4C75 /* Main.storyboard */; };
 		FE866A1D20038B1D009D4C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE866A1C20038B1D009D4C75 /* Assets.xcassets */; };
 		FE866A2020038B1D009D4C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE866A1E20038B1D009D4C75 /* LaunchScreen.storyboard */; };
 		FE866A2B20038B1D009D4C75 /* DesafioAgilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE866A2A20038B1D009D4C75 /* DesafioAgilTests.m */; };
 		FE866A3620038B1D009D4C75 /* DesafioAgilUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE866A3520038B1D009D4C75 /* DesafioAgilUITests.m */; };
+		FEA39546200635870069C63A /* MVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA39545200635870069C63A /* MVViewController.m */; };
+		FEA39549200635E00069C63A /* MVDatabaseNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA39548200635E00069C63A /* MVDatabaseNetwork.m */; };
+		FEA3954C200636070069C63A /* MVAgilManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA3954B200636070069C63A /* MVAgilManager.m */; };
+		FEA3954F200636780069C63A /* MVAgilModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA3954E200636780069C63A /* MVAgilModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		286C6EC5DD24EEAFBE379D6B /* libPods-DesafioAgilTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DesafioAgilTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E16E20A75B593887A1037A7 /* Pods-DesafioAgilTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioAgilTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesafioAgilTests/Pods-DesafioAgilTests.release.xcconfig"; sourceTree = "<group>"; };
+		384BB5AD0EB0FDD24986C986 /* Pods-DesafioAgil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioAgil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesafioAgil/Pods-DesafioAgil.debug.xcconfig"; sourceTree = "<group>"; };
+		4BA486F57AF855BA451B6DB1 /* Pods-DesafioAgil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioAgil.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesafioAgil/Pods-DesafioAgil.release.xcconfig"; sourceTree = "<group>"; };
+		52713EED56508F65DB7B3772 /* Pods-DesafioAgilTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioAgilTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesafioAgilTests/Pods-DesafioAgilTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B9FA34D488A2A9B3D00A9F2 /* libPods-DesafioAgil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DesafioAgil.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8149A1200C106800720F89 /* localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = localizable.strings; sourceTree = "<group>"; };
+		FE8149A6200C203000720F89 /* MVAgilManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVAgilManagerTest.m; path = Manager/MVAgilManagerTest.m; sourceTree = "<group>"; };
+		FE8149A8200C205500720F89 /* MVDatabaseNetworkTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVDatabaseNetworkTest.m; path = Database/MVDatabaseNetworkTest.m; sourceTree = "<group>"; };
+		FE8149AA200C207A00720F89 /* MVControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVControllerTest.m; path = Controller/MVControllerTest.m; sourceTree = "<group>"; };
 		FE866A0D20038B1D009D4C75 /* DesafioAgil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioAgil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE866A1120038B1D009D4C75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE866A1320038B1D009D4C75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE866A1420038B1D009D4C75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FE866A1620038B1D009D4C75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FE866A1720038B1D009D4C75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FE866A1A20038B1D009D4C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE866A1C20038B1D009D4C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE866A1F20038B1D009D4C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +68,14 @@
 		FE866A3120038B1D009D4C75 /* DesafioAgilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioAgilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE866A3520038B1D009D4C75 /* DesafioAgilUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesafioAgilUITests.m; sourceTree = "<group>"; };
 		FE866A3720038B1D009D4C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA39544200635870069C63A /* MVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVViewController.h; path = Controllers/MVViewController.h; sourceTree = "<group>"; };
+		FEA39545200635870069C63A /* MVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVViewController.m; path = Controllers/MVViewController.m; sourceTree = "<group>"; };
+		FEA39547200635E00069C63A /* MVDatabaseNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVDatabaseNetwork.h; path = Database/MVDatabaseNetwork.h; sourceTree = "<group>"; };
+		FEA39548200635E00069C63A /* MVDatabaseNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVDatabaseNetwork.m; path = Database/MVDatabaseNetwork.m; sourceTree = "<group>"; };
+		FEA3954A200636070069C63A /* MVAgilManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVAgilManager.h; path = Manager/MVAgilManager.h; sourceTree = "<group>"; };
+		FEA3954B200636070069C63A /* MVAgilManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVAgilManager.m; path = Manager/MVAgilManager.m; sourceTree = "<group>"; };
+		FEA3954D200636780069C63A /* MVAgilModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVAgilModel.h; path = Model/MVAgilModel.h; sourceTree = "<group>"; };
+		FEA3954E200636780069C63A /* MVAgilModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVAgilModel.m; path = Model/MVAgilModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F70F6D607400A8FE617DC160 /* libPods-DesafioAgil.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA61FA30765FB1B2BA8CEE1A /* libPods-DesafioAgilTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +105,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20101DEAA157C95C7EF1D589 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B9FA34D488A2A9B3D00A9F2 /* libPods-DesafioAgil.a */,
+				286C6EC5DD24EEAFBE379D6B /* libPods-DesafioAgilTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4DA78572C3D80843AECC79D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				384BB5AD0EB0FDD24986C986 /* Pods-DesafioAgil.debug.xcconfig */,
+				4BA486F57AF855BA451B6DB1 /* Pods-DesafioAgil.release.xcconfig */,
+				52713EED56508F65DB7B3772 /* Pods-DesafioAgilTests.debug.xcconfig */,
+				2E16E20A75B593887A1037A7 /* Pods-DesafioAgilTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE8149A3200C1CB700720F89 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE8149AA200C207A00720F89 /* MVControllerTest.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FE8149A4200C1CCB00720F89 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				FE8149A8200C205500720F89 /* MVDatabaseNetworkTest.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		FE8149A5200C1D8900720F89 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FE8149A6200C203000720F89 /* MVAgilManagerTest.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
 		FE866A0420038B1D009D4C75 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +156,8 @@
 				FE866A2920038B1D009D4C75 /* DesafioAgilTests */,
 				FE866A3420038B1D009D4C75 /* DesafioAgilUITests */,
 				FE866A0E20038B1D009D4C75 /* Products */,
+				A4DA78572C3D80843AECC79D /* Pods */,
+				20101DEAA157C95C7EF1D589 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +174,17 @@
 		FE866A0F20038B1D009D4C75 /* DesafioAgil */ = {
 			isa = PBXGroup;
 			children = (
+				FEA39543200633D90069C63A /* Model */,
+				FEA39542200633D10069C63A /* Manager */,
+				FEA39541200633C80069C63A /* Database */,
+				FE866A4320038B28009D4C75 /* ViewControllers */,
 				FE866A1320038B1D009D4C75 /* AppDelegate.h */,
 				FE866A1420038B1D009D4C75 /* AppDelegate.m */,
-				FE866A1620038B1D009D4C75 /* ViewController.h */,
-				FE866A1720038B1D009D4C75 /* ViewController.m */,
 				FE866A1920038B1D009D4C75 /* Main.storyboard */,
 				FE866A1C20038B1D009D4C75 /* Assets.xcassets */,
 				FE866A1E20038B1D009D4C75 /* LaunchScreen.storyboard */,
 				FE866A2120038B1D009D4C75 /* Info.plist */,
+				FE8149A1200C106800720F89 /* localizable.strings */,
 				FE866A1020038B1D009D4C75 /* Supporting Files */,
 			);
 			path = DesafioAgil;
@@ -125,6 +201,9 @@
 		FE866A2920038B1D009D4C75 /* DesafioAgilTests */ = {
 			isa = PBXGroup;
 			children = (
+				FE8149A5200C1D8900720F89 /* Manager */,
+				FE8149A4200C1CCB00720F89 /* Database */,
+				FE8149A3200C1CB700720F89 /* Controller */,
 				FE866A2A20038B1D009D4C75 /* DesafioAgilTests.m */,
 				FE866A2C20038B1D009D4C75 /* Info.plist */,
 			);
@@ -140,6 +219,42 @@
 			path = DesafioAgilUITests;
 			sourceTree = "<group>";
 		};
+		FE866A4320038B28009D4C75 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FEA39544200635870069C63A /* MVViewController.h */,
+				FEA39545200635870069C63A /* MVViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FEA39541200633C80069C63A /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				FEA39547200635E00069C63A /* MVDatabaseNetwork.h */,
+				FEA39548200635E00069C63A /* MVDatabaseNetwork.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		FEA39542200633D10069C63A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FEA3954A200636070069C63A /* MVAgilManager.h */,
+				FEA3954B200636070069C63A /* MVAgilManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		FEA39543200633D90069C63A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEA3954D200636780069C63A /* MVAgilModel.h */,
+				FEA3954E200636780069C63A /* MVAgilModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE866A3A20038B1D009D4C75 /* Build configuration list for PBXNativeTarget "DesafioAgil" */;
 			buildPhases = (
+				C284B6FE727F32F546216C97 /* [CP] Check Pods Manifest.lock */,
 				FE866A0920038B1D009D4C75 /* Sources */,
 				FE866A0A20038B1D009D4C75 /* Frameworks */,
 				FE866A0B20038B1D009D4C75 /* Resources */,
+				B4DD532DEAEEE505EEBBB4C1 /* [CP] Embed Pods Frameworks */,
+				15D813FD8308EA73B180BA96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE866A3D20038B1D009D4C75 /* Build configuration list for PBXNativeTarget "DesafioAgilTests" */;
 			buildPhases = (
+				B3F0133CF763C9DF9B85593D /* [CP] Check Pods Manifest.lock */,
 				FE866A2220038B1D009D4C75 /* Sources */,
 				FE866A2320038B1D009D4C75 /* Frameworks */,
 				FE866A2420038B1D009D4C75 /* Resources */,
+				0D6159A8FE1549E6EE39CD19 /* [CP] Embed Pods Frameworks */,
+				E8BBE736359BE3A244F9846D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE866A2020038B1D009D4C75 /* LaunchScreen.storyboard in Resources */,
+				FE8149A2200C106800720F89 /* localizable.strings in Resources */,
 				FE866A1D20038B1D009D4C75 /* Assets.xcassets in Resources */,
 				FE866A1B20038B1D009D4C75 /* Main.storyboard in Resources */,
 			);
@@ -268,14 +390,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D6159A8FE1549E6EE39CD19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesafioAgilTests/Pods-DesafioAgilTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15D813FD8308EA73B180BA96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DesafioAgil/Pods-DesafioAgil-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesafioAgil/Pods-DesafioAgil-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3F0133CF763C9DF9B85593D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioAgilTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4DD532DEAEEE505EEBBB4C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesafioAgil/Pods-DesafioAgil-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C284B6FE727F32F546216C97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioAgil-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8BBE736359BE3A244F9846D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesafioAgilTests/Pods-DesafioAgilTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE866A0920038B1D009D4C75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE866A1820038B1D009D4C75 /* ViewController.m in Sources */,
+				FEA3954F200636780069C63A /* MVAgilModel.m in Sources */,
+				FEA3954C200636070069C63A /* MVAgilManager.m in Sources */,
 				FE866A1520038B1D009D4C75 /* AppDelegate.m in Sources */,
 				FE866A1220038B1D009D4C75 /* main.m in Sources */,
+				FEA39549200635E00069C63A /* MVDatabaseNetwork.m in Sources */,
+				FEA39546200635870069C63A /* MVViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +510,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8149AB200C207A00720F89 /* MVControllerTest.m in Sources */,
 				FE866A2B20038B1D009D4C75 /* DesafioAgilTests.m in Sources */,
+				FE8149A7200C203000720F89 /* MVAgilManagerTest.m in Sources */,
+				FE8149A9200C205500720F89 /* MVDatabaseNetworkTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +652,9 @@
 		};
 		FE866A3B20038B1D009D4C75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384BB5AD0EB0FDD24986C986 /* Pods-DesafioAgil.debug.xcconfig */;
 			buildSettings = {
+				API_BASE_URL = "https://api.github.com/repos/octocat/Hello-World";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DesafioAgil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -433,7 +665,9 @@
 		};
 		FE866A3C20038B1D009D4C75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA486F57AF855BA451B6DB1 /* Pods-DesafioAgil.release.xcconfig */;
 			buildSettings = {
+				API_BASE_URL = "https://api.github.com/repos/octocat/Hello-World";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DesafioAgil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -444,6 +678,7 @@
 		};
 		FE866A3E20038B1D009D4C75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52713EED56508F65DB7B3772 /* Pods-DesafioAgilTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DesafioAgilTests/Info.plist;
@@ -456,6 +691,7 @@
 		};
 		FE866A3F20038B1D009D4C75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E16E20A75B593887A1037A7 /* Pods-DesafioAgilTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DesafioAgilTests/Info.plist;
@@ -507,6 +743,7 @@
 				FE866A3C20038B1D009D4C75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE866A3D20038B1D009D4C75 /* Build configuration list for PBXNativeTarget "DesafioAgilTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +752,7 @@
 				FE866A3F20038B1D009D4C75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE866A4020038B1D009D4C75 /* Build configuration list for PBXNativeTarget "DesafioAgilUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +761,7 @@
 				FE866A4220038B1D009D4C75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
